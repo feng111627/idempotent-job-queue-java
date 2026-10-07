@@ -1,0 +1,12 @@
+package com.github.feng111627.jobqueue.error;
+
+public class JobQueueException extends RuntimeException {
+
+    public JobQueueException(String message) {
+        super(message);
+    }
+
+    public JobQueueException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
